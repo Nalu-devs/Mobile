@@ -1,0 +1,17 @@
+import { View, Image, Text, TouchableOpacity} from 'react-native'; /*TouchableOpacity serve para botões*/
+
+import Estilo from '../estilos/Estilo';
+import Link from './Link';
+
+export default function Header() {
+  return (
+    <View style={Estilo.containerHeader}>
+      <Image style={Estilo.imagemLogo} source={require('../assets/snack-icon.png')} />
+      <View style={Estilo.divisao}>
+        <Link name="Inicio"/>
+        <Link name="Sobre"/>
+        <Link name="Contato"/>
+      </View>
+    </View>
+  );
+}
