@@ -1,0 +1,20 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  imagemLogo:{
+    width: 50,
+    height: 50
+  },
+  containerHeader:{
+    backgroundColor:'pink',
+    flexDirection:'row',
+    justifyContent: 'space-between',
+    padding: 20
+  },
+  divisao:{
+    flexDirection:'row',
+    alignItems: 'center',
+    gap: 20
+  }
+  
+})
