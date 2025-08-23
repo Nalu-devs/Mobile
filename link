@@ -1,0 +1,11 @@
+import { TouchableOpacity, Text } from 'react-native';
+
+export default function Link(props){
+  return(
+    
+      <TouchableOpacity>
+        <Text>{props.name}</Text>
+      </TouchableOpacity>
+    
+  )
+}
