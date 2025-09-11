@@ -25,6 +25,6 @@ Curso Técnico em Informática Para Internet – ETEC
 Curso Técnico em Desenvolvimento de Sistemas – ETEC
 📧 ana.lucia.cavalcantes.irino@gmail.com  
 
-## 📝 Observações
+## Observações
 
 Este repositório é apenas para fins educacionais. Sinta-se à vontade para explorar, estudar e utilizar como referência.
